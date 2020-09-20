@@ -3,9 +3,9 @@
 #### Table of content
 1. [Objective](#objective)
 2. [Methods](#methods)
-..1. [Pubmed scrapping](##pubmed-scrapping)
-..2. [BeCAS Annotation](##becas-annotation)
-..3. [BioWordVect Word Embedding](##biowordvect-word-embedding)
+    * [Pubmed scrapping](##pubmed-scrapping)
+    * [BeCAS Annotation](##becas-annotation)
+    * [BioWordVect Word Embedding](##biowordvect-word-embedding)
 3. [Results](#results)
 4. [References](#references)
 5. [Packages requirement](#packages-requirement)
