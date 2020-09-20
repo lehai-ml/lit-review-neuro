@@ -3,9 +3,9 @@
 #### Table of content
 1. [Objective](#objective)
 2. [Methods](#methods)
-* [Pubmed scrapping](##pubmed-scrapping)
-* [BeCAS Annotation](##becas-annotation)
-* [BioWordVect Word Embedding](##biowordvect-word-embedding)
+..1. [Pubmed scrapping](##pubmed-scrapping)
+..2. [BeCAS Annotation](##becas-annotation)
+..3. [BioWordVect Word Embedding](##biowordvect-word-embedding)
 3. [Results](#results)
 4. [References](#references)
 5. [Packages requirement](#packages-requirement)
@@ -38,7 +38,7 @@ To use this function you need to specify the input ```df```, ```email```, and ou
 
 Once I have gotten my two documents from the aboved mentioned functions. I [merge the annotations and MeshHeadings](./preprocessing_data.py) and specify the date range of my documents. I then use the combined annotations of MeshHeading and BeCAS to represent each document.
 
-[BioWordVect](https://www.nature.com/articles/s41597-019-0055-0) is a pretrained word embedding that contains over 2.7 million tokens, and has been trained on a large body of PubMed abstracts and MeshHeadings. Rather than training based on individual words as Word2Vec, the authors trained on subwords, which is very useful in biomedical data, which contains many compound words. Here, each word in BioWordVect is represented by a 200-dimensional vector.
+[BioWordVect](https://www.nature.com/articles/s41597-019-0055-0) is a pretrained word embedding that contains over 2.7 million tokens, and has been trained on a large body of PubMed abstracts and MeshHeadings. Rather than training on individual words as in Word2Vec, the authors trained on subwords, which is very useful in biomedical data, which contains many compound words. Here, each word in BioWordVect is represented by a 200-dimensional vector.
 
 To run the [get_word_vector](./preprocessing_data.py), you need to download the [bio_embedding_intrinsic](https://figshare.com/articles/dataset/Improving_Biomedical_Word_Embeddings_with_Subword_Information_and_MeSH_Ontology/6882647/2) pretrained model.
 
