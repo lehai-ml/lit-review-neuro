@@ -61,6 +61,8 @@ Zhang, Y., Chen, Q., Yang, Z., Lin, H., and Lu, Z. (2019) BioWordVec, improving 
 
 # Logs:
 
+24/09/2020- Changed the ```preprocessing.most_common_keys``` to count semantically similar words as one. Added the dataset and jupyter notebook.
+
 19/09/2020- First uploaded
 
 
