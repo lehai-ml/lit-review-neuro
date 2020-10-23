@@ -1,5 +1,14 @@
 .DS_Store
+
 .[B
+
 .ipynb_checkpoints/
+
 __pychace__/
+*.py[cod]
+*$py.class
+
 ~$new.txt
+*.csv
+*.txt
+bio_embedding_intrinsic
